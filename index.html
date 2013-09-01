@@ -6,98 +6,47 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style type="text/less">
     a {
-      color: #8c8c5e;
-    }
-    .box-shadow (@x: 0; @y: 0; @blur: 5px; @spread: 0px; @color: #fff) {
-      box-shadow: @arguments;
-      -moz-box-shadow: @arguments;
-      -webkit-box-shadow: @arguments;
-    }
-    .box-shadow-inset (@x: 0; @y: 0; @blur: 5px; @spread: 0px; @color: #fff) {
-      box-shadow: inset @arguments;
-      -moz-box-shadow: inset @arguments;
-      -webkit-box-shadow: inset @arguments;
+      color: #5B201F;
     }
     body {
       background-color: #8c8c5e;
     }
-    #header {
-      background-color: #EBE9D7; /* 615D4E */
-      border: gray 3px solid;
-      border-bottom-width: 0;
-      /*.box-shadow(@blur: 2em; @color: #615D4E);*/
-      margin-top: 2em;
-    }
-    #logo {
-      text-align: center;
-      padding: 2em;
-    }
-    #nav {
-      background-color: #EBE9D7; /* 615D4E */
-    }
-    #nav .navbar-inner {
-      background-image: none;
-      background-color: #997666;
-    }
-    #nav .navbar li {
-      font-weight: bold;
-    }
-    .nav-tabs {
-      padding: 2em;
-    }
-    .nav-tabs a {
-      font-size: 1.1em;
-      color: #333;
-      background-color: #EBE9D7;
-    }
-    #content {
-      .box-shadow-inset(@blur: 3em; @color: #EBE9D7; @spread: 1em);
-      background-color: white;
-      border-color: gray;
-      border-width: 0 3px 3px 3px;
+    #container {
+      border-color: #666;
+      border-width: 0 3px;
       border-style: solid;
+      background-color: white;
+      min-height: 100%;
     }
-    #main {
-      padding: 2em;
+    .header {
+      text-align: center;
     }
-    @media (min-width: 767px) {
-      #nav {
-        position: absolute; right: 1em; bottom: 1em;
-      }
+    .content {
+      padding: 0.5em 2em;
     }
     </style>
   </head>
   <body>
       <!-- Bootstrap -->
-    <div class="container" id="header">
-      <div class="row-fluid" style="position: relative;">
-        <div class="span3" id="logo">
-          <img src="img/logo.png" alt="Christ Covenant Church">
-        </div>
-        <div class="span9" id="nav">
-          <div class="navbar">
-            <div class="navbar-inner">
-              <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-              </ul>
-            </div>
+    <div class="container" id="container">
+      <div class="row-fluid header">
+        <div class="span12">
+          <div class="content">
+            <img src="img/logo.png" alt="Christ Covenant Church">
           </div>
         </div>
       </div>
-    </div>
-    <div class="container" id="content">
-      <div class="row-fluid">
-        <div class="span3">
-          <ul class="nav nav-tabs nav-stacked">
-            <li><a href="#">Welcome</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Directions</a></li>
-          </ul>
+      <div class="row-fluid header">
+        <div class="span12">
+          <div class="content">
+            <h3><a href="#">Who We Are</a></h3>
+          </div>
         </div>
-        <div class="span9" id="main">
+      </div>
+      <div class="row-fluid" id="main">
+        <div class="span12 content">
           <h1>Test</h1>
+          <p>This is a test paragraph <a href="#">that</a> includes a link.</p>
         </div>
       </div>
     </div>
