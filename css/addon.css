@@ -1,0 +1,35 @@
+body {
+  font-family: Georgia;
+  background-color: #8c8c5e;
+}
+#container {
+  border-color: #666;
+  border-width: 0 3px;
+  border-style: solid;
+  background-color: white;
+  min-height: 100%;
+}
+.header {
+  padding-top: 2em;
+}
+.header img {
+  text-align: center;
+}
+.header .btn {
+  margin: 1em;
+  padding: 0.5em 2em;
+  font-size: 1.1em;
+}
+h3 {
+  color: #663;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+.content {
+  padding: 0.5em 2em;
+}
+hr {
+  height: 0.2em;
+  border: 0;
+  background-color: #997666;
+}
