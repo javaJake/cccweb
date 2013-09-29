@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia;
+  font-family: 'Libre Baskerville', serif;
   background-color: #8c8c5e;
 }
 #container {
@@ -9,13 +9,20 @@ body {
   background-color: white;
   min-height: 100%;
 }
-.header {
+.pagehead {
   padding-top: 2em;
+  font-family: Arapey;
 }
-.header img {
+.pagehead {
+  font-size: 1.2em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato;
+}
+.pagehead img {
   text-align: center;
 }
-.header .btn {
+.pagehead .btn {
   margin: 1em;
   padding: 0.5em 2em;
   font-size: 1.1em;
@@ -26,10 +33,35 @@ h3 {
   line-height: 1.3em;
 }
 .content {
-  padding: 0.5em 2em;
+  margin-left: 0.25em;
+  padding: 0em 2em;
 }
 hr {
   height: 0.2em;
   border: 0;
   background-color: #997666;
+}
+.rowhead {
+  padding: 2em;
+  background-color: #EBE9D7;
+  border-bottom: 3px black solid;
+}
+@media (min-width: 481px) {
+  .rowhead h2 {
+    display: inline;
+    padding: 0.2 1em;
+  }
+}
+.navbar {
+  margin-bottom: 0;
+}
+.headcaption {
+  font-family: Lato;
+  font-style: italic;
+}
+.btn {
+  font-weight: bold;
+}
+.row-fluid {
+  padding-bottom: 2em;
 }
