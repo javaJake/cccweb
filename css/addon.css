@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5em 2em;
   font-size: 1.1em;
 }
-h3 {
+.pagehead h3 {
   color: #663;
   font-weight: bold;
   line-height: 1.2em;
@@ -63,4 +63,7 @@ hr {
 }
 .row-fluid {
   padding-bottom: 2em;
+}
+.raised {
+  font-size: 1.2em;
 }
