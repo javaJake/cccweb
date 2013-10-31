@@ -2,12 +2,35 @@ body {
   font-family: 'Libre Baskerville', serif;
   background-color: #8c8c5e;
 }
+.affix {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.affix-bottom .logo, .affix-top .logo {
+  visibility: hidden;
+}
+.affix .logo {
+  visibility: visible;
+}
+.affix-bottom {
+  position: absolute;
+}
+.navbar-brand {
+  padding:0 15px;
+}
 #container {
   border-color: #666;
   border-width: 0 3px;
   border-style: solid;
   background-color: white;
   min-height: 100%;
+}
+.browsehappy {
+  margin: 1em 25%;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0.2em;
 }
 .pagehead {
   padding-top: 2em;
