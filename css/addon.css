@@ -2,23 +2,6 @@ body {
   font-family: 'Libre Baskerville', serif;
   background-color: #8c8c5e;
 }
-.affix {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-}
-.affix-bottom .logo, .affix-top .logo {
-  visibility: hidden;
-}
-.affix .logo {
-  visibility: visible;
-}
-.affix-bottom {
-  position: absolute;
-}
-.navbar-brand {
-  padding:0 15px;
-}
 #container {
   border-color: #666;
   border-width: 0 3px;
@@ -69,12 +52,9 @@ ol.important li {
   margin-bottom: 1em;
 }
 .rowhead {
-  padding: 2em;
+  padding: 2em 4em;
   background-color: #EBE9D7;
   border-bottom: 3px black solid;
-}
-.row {
-  padding-bottom: 2em;
 }
 @media (min-width: 481px) {
   .rowhead h2 {
@@ -92,10 +72,10 @@ ol.important li {
 .btn {
   font-weight: bold;
 }
-.row-fluid {
-  padding-bottom: 2em;
+.row {
+  margin-bottom: 15px;
 }
-.raised {
+.lead {
   font-size: 1.2em;
 }
 
