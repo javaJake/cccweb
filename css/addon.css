@@ -8,7 +8,7 @@ body {
   z-index: 1;
 }
 .affix-bottom .logo, .affix-top .logo {
-  visibility: collapse;
+  visibility: hidden;
 }
 .affix .logo {
   visibility: visible;
@@ -72,6 +72,9 @@ ol.important li {
   padding: 2em;
   background-color: #EBE9D7;
   border-bottom: 3px black solid;
+}
+.row {
+  padding-bottom: 2em;
 }
 @media (min-width: 481px) {
   .rowhead h2 {
