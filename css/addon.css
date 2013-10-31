@@ -8,7 +8,7 @@ body {
   z-index: 1;
 }
 .affix-bottom .logo, .affix-top .logo {
-  visibility: hidden;
+  visibility: collapse;
 }
 .affix .logo {
   visibility: visible;
