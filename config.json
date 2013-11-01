@@ -7,8 +7,11 @@
     "@brand-info": "#929AAF",
     "@font-family-sans-serif": "Lato, Helvetica, Arial, sans-serif",
     "@font-family-serif": "Libre Baskerville, Georgia, Times, serif",
-    "@navbar-height": "30px",
+    "@navbar-default-color": "@gray-light",
     "@navbar-default-bg": "#8C7A5E",
+    "@navbar-default-link-color": "#333",
+    "@navbar-default-link-hover-color": "#222",
+    "@navbar-inverse-color": "#777",
     "@navbar-inverse-bg": "#C6BC95"
   },
   "css": [
