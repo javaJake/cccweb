@@ -72,6 +72,7 @@ ol.important li {
   padding-bottom: 0;
 }
 .headcaption {
+  margin-left: 2em;
   font-family: Lato;
   font-style: italic;
 }
