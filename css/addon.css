@@ -88,6 +88,11 @@ ol.important li {
 .navbar {
   background: #EBE9D7; /* Old browsers */
 }
+.anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+}
 
 #statementoffaith {
   background: transparent url(../img/statementoffaithbg.png) no-repeat scroll 100% top;
