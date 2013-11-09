@@ -1,25 +1,35 @@
 body {
   font-family: 'Libre Baskerville', serif;
   background-color: #8c8c5e;
+  padding-top: 50px;
 }
-#container {
+.top-container {
   border-color: #666;
   border-width: 0 3px;
   border-style: solid;
+}
+#container {
   background-color: white;
-  min-height: 100%;
 }
 .browsehappy {
-  margin: 1em 25%;
+  margin: 1em 50%;
   background: #ccc;
   color: #000;
   padding: 0.2em 0.2em;
 }
 .pagehead {
-  padding-top: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
   font-family: Arapey;
   font-size: 1.4em;
   line-height: 1.2em;
+  background: -moz-linear-gradient(top, rgba(235,233,215,1) 0%, rgba(0,0,0,0) 50%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(235,233,215,1)), color-stop(50%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(235,233,215,1) 0%,rgba(0,0,0,0) 50%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(235,233,215,1) 0%,rgba(0,0,0,0) 50%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(235,233,215,1) 0%,rgba(0,0,0,0) 50%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(235,233,215,1) 0%,rgba(0,0,0,0) 50%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ebe9d7', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: Lato;
@@ -40,11 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #7A433E;
 }
-hr {
-  height: 0.2em;
-  border: 0;
-  background-color: #997666;
-}
 span.raised {
   line-height: 1.5em;
 }
@@ -62,8 +67,9 @@ ol.important li {
     padding: 0.2 1em;
   }
 }
-.navbar {
-  margin-bottom: 0;
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .headcaption {
   font-family: Lato;
@@ -79,6 +85,10 @@ ol.important li {
   font-size: 1.2em;
 }
 
+.navbar {
+  background: #EBE9D7; /* Old browsers */
+}
+
 #statementoffaith {
-  background: transparent url(../img/statementoffaithbg.png) no-repeat scroll 95% top;
+  background: transparent url(../img/statementoffaithbg.png) no-repeat scroll 100% top;
 }
